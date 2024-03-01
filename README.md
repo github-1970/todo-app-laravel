@@ -1,6 +1,6 @@
-## Todo App with Laravel, Vue.js, and Tailwind CSS
+## Todo App
 
-This project is a Todo application built using Laravel, Vue.js, and Tailwind CSS.
+This project is a Todo application built using Laravel, Vue.js, Inertia.js, and Tailwind CSS.
 
 ### Screenshots
 
@@ -29,6 +29,7 @@ This project is a Todo application built using Laravel, Vue.js, and Tailwind CSS
 - **Laravel:** A PHP web application framework for building efficient and secure web applications.
 - **Vue.js:** A progressive JavaScript framework for building user interfaces.
 - **Tailwind CSS:** A utility-first CSS framework for building custom designs quickly and easily.
+- **Inertia.js** Inertia allows you to create fully client-side rendered, single-page apps, without the complexity that comes with modern SPAs.
 
 ### Getting Started
 
