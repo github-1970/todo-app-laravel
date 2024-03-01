@@ -27,6 +27,8 @@ todoProvider.value = TodoProvider.createTodoProvider(user.value?.id)
 watch([currentPage, filteredData, runFetch], async () => {
     todosInfo.value = await todoProvider.value.get(filteredData.value, currentPage.value)
     todos.value = todosInfo.value.data
+    if (todos.value.length === 0 && currentPage.value > 1)
+      currentPage.value = currentPage.value - 1
   },
   {immediate: true}
 )
